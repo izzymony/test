@@ -1,0 +1,1072 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=M+PLUS+1+Code:wght@100..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+
+}
+
+
+nav ul li a{
+    gap: 25px;
+    font-family: 'Epilogue', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    }
+
+    header{
+       
+      
+    }
+
+    .logo{
+        margin: 1.5rem;
+    }
+    
+   
+    .checkbtn{
+        font-size: 20px;
+        float: right;
+        height: fit-content;
+        width: fit-content;
+        margin-right: 60px;
+        cursor: pointer;
+        display:none;
+        margin-top: 1rem;
+       
+    }
+
+   
+
+    .head-content{
+       
+    }
+
+    .menus{
+        color: black;
+        filter:invert(3);
+    }
+    #check{
+        display:none;
+    }
+    .family{
+        min-width: 100%;
+    }
+    .ref{
+        position: absolute;
+        margin-top: 20rem;
+        
+    }
+
+    
+
+    .family{
+        width: 100%;
+    }
+
+    .card{
+        background-color:white;
+        box-shadow:  0 0   8px;
+        padding-bottom: 2rem;
+        width:90%;
+        margin: auto;
+        margin-top: 5rem;
+       
+    }
+
+    .uniquifier{
+        font-family: "Urbanist", sans-serif;
+  
+  font-weight:00;
+  color:#263238 ;
+  font-style: normal;
+width: 90%;
+margin: auto;
+font-size: 30px;
+padding-top: 4rem;
+ 
+    }
+
+    p{
+        max-width: 90%;
+        margin: auto;
+        font-size: 14px;
+        margin-top: 1rem;
+         font-family: "Urbanist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: lighter;
+    }
+
+    h2{
+        font-family: "Urbanist", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 20px;  
+        text-align: center;
+        color:#263238;
+        margin-top: 0.5rem;
+    }
+
+    .cta{
+        
+        margin: auto;
+        font-family: "Urbanist", sans-serif;
+        background-color:hsl(54, 75%, 60%);
+        font-weight: 700;
+        margin: auto;
+        margin-left: 3.5rem;
+    }
+    .cta:hover{
+        color: white;
+        transition: all 0.4s;
+    }
+
+    .ben{
+         margin: auto;
+        display: flex;
+        margin-top: 2rem; 
+    }
+
+    .reviews{
+       margin-top: 3rem;
+    }
+    .container{
+        margin-top: 3rem;
+        gap: 3rem;
+        line-height: 2rem;
+        
+    }
+    .box{
+        background-color: white;
+        max-width: 90%;
+        margin:auto;
+        height: 10rem;
+        border: 1px solid lightgray;
+    }
+
+    /* services*/
+    .services{
+        width: 90%;
+        margin: auto;
+        margin-top: 3rem;
+        background-color: aqua;
+    }
+    .service-text{
+        color: rgb(49, 146, 207);
+        font-size: 19px;
+        font-style: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 480;
+        font-style: normal;
+    }
+    .service-offer{
+        font-family: "Urbanist", sans-serif;
+        font-weight:800;
+        color:#263238 ;
+        width: 100%;
+        margin: auto;
+        display: block;
+        font-style: normal;   
+        font-size: 29px;
+        margin-top: 1rem;
+    }
+
+    .quote{
+        margin-top: 2rem;
+        height: 3.5rem;
+        font-family: "Urbanist", sans-serif;
+        color: rgb(49, 146, 207);
+        font-size: 14px;
+        font-weight: 800;
+        border:2px solid gold;
+        background-color: white;
+    }
+
+   
+
+    @media(min-width:320px){
+        .b{
+          margin-top: 6rem;
+        }
+        
+    }
+
+
+    #id{
+
+    }
+    
+   /* .services{
+    display: flex;
+    width: 100%;
+    background-color: white;
+   }
+   .services  input  {
+    display:  none;
+   }
+   
+   .dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+ 
+   }
+   .dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 1px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+   }
+
+   .dots label:hover{
+    background-color: black;
+    gap: 1rem;
+   }
+
+   .ref{
+    background-color: white;
+    padding: 1rem;
+    
+   } */
+  /*  #im1:checked ~ .m1,.cont{
+        margin-left:0;
+   }
+   #im1:checked ~ .m1,.cont:hover{
+        transform: translateX(0%);
+   }
+   #im2:checked ~ .m2{
+        margin-left: -100%;
+   }
+   #im2:checked ~ .m2:hover{
+       transform: translateX(-100%);
+   }
+   #im3:checked ~ .m3{
+        margin-left: -200%;
+   }
+   #im4:checked ~ .m4{
+        margin-left: -300%;
+   }
+   #im5:checked ~ .m4{
+        margin-left: -400%;
+   }
+   #im6:checked ~ .m6{
+        margin-left: -500%;
+   }
+   #im7:checked ~ .m7{
+        margin-left: -700%;
+   } */
+
+
+    /* slides*/
+   .cont{
+    width: 90%;
+    padding-bottom: 4rem;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow:0 0 24px;
+   margin-top: 3rem;
+    text-align: center;
+    color: rgb(230, 236, 243);
+   }
+   .m1,.m3,.m4,.m5,.m6,.m7{
+    width: 100%;
+    margin: auto;
+    
+   } 
+
+   p{
+    font-family: "Urbanist", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: lighter;
+      color:#263238 ;
+      font-size: 17px;
+      
+   }
+
+   /* .t{
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+   }
+
+   .cont-slides{
+   position: relative;
+    width: 100px;
+    overflow: hidden;
+   }
+
+   .slide .img{ 
+    height: 300px;
+   
+    transition: all 0.15s ease;
+   
+}
+ */
+/*customers*/
+.statistics{
+    background-color:#141f25;
+    width: 100%;  
+    text-align: center;
+    margin-top: 4rem;
+   
+}
+.b{
+  padding-top: 3rem;
+  
+}
+
+.numbers{
+    font-size: 27px;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+}
+
+.svg{
+    margin-top: 4rem;
+}
+
+.stats{
+    font-family: "Urbanist", sans-serif;
+        color: rgb(49, 146, 207);
+        font-size: 20px;
+        font-weight: 800;
+
+}
+
+.imbg{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.images{
+    margin-top: 9rem;
+}
+
+.Welcome{
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.p2{
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.p3{
+    font-size: 15px;
+    width: 100%;
+    margin: auto;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.p ,.quotes{
+    margin-top: 2rem;
+    width: 90%;
+    margin: auto;
+}
+.sub-write{
+    margin-top: 1rem;
+}
+/*form*/
+.form-layout{
+    background-color:   rgb(29, 117, 171);
+    margin-top: 3rem;
+}
+
+form{
+  display: grid;
+  grid-template-rows: 1fr 1fr; 
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+input{
+    margin-top: 1rem;
+    height: 3rem;
+    background-color:rgb(29, 117, 171) ;
+    border: 0.5px solid lightgrey;
+    text-indent: 1rem;
+}
+input:hover{
+    border: none;
+    border: 0.5px solid lightgrey;
+}
+::placeholder{
+    color: white;
+    font-family:"Urbanist", sans-serif ;
+    text-indent: 1rem;
+    font-size: 17px;
+}
+
+
+textarea{
+    margin-top: 1rem;
+    text-indent: 1rem;
+    padding-top: 1rem;
+    background-color:transparent;
+    border: 0.5px solid lightgrey;
+    color: white;
+    font-family:"Urbanist", sans-serif ;
+    font-size: 17px;
+}
+
+h3{
+    color: white;
+    font-family:"Urbanist", sans-serif ;
+    width: 90%;
+    margin: auto;
+    font-size: 35px;
+    padding-top: 4rem;
+}
+
+button{
+    margin-top: 3rem;
+    height:3.5rem;
+    width: 10rem;
+    background-color: gold;
+    border: none;
+    font-family: "Urbanist", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+
+}
+
+.video{
+    width: 100%;
+    object-fit: cover;
+    padding-bottom: 4rem;
+}
+
+.play{
+  margin-top: 5.5rem;
+   position: absolute;
+ 
+}
+.white{
+  
+}
+/*slides*/
+.center{
+    display: flex;
+    margin: auto;
+    width: 20%;
+    
+}
+
+.card-testimonial1,.card-testimonial2,.card-testimonial3{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    flex: 0 0 100% ;
+    box-shadow:0 0 24px;
+    scroll-snap-align:start;
+    padding: 3rem;
+    margin-top: 3rem;
+    color: rgb(230, 236, 243);
+    border-top:5px solid lightblue;
+   
+} 
+
+
+.testimonial{
+   display: flex;
+}
+
+.slides{
+    display: flex;
+    gap: 30px;
+   scroll-snap-type: x mandatory;
+    overflow: scroll; 
+    padding-bottom: 4rem;
+    scroll-padding: 50px;
+    padding: 30px;
+}
+
+.pp{
+    font-family: "Urbanist", sans-serif;
+   
+    font-size: 20px;  
+   
+   font-weight: 600;
+    color:#263238 ; 
+}
+
+.gg{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    color: rgb(49, 146, 207);
+}
+
+
+.lorem{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+   color: gray;
+   line-height: 2rem;
+   padding-bottom: 2rem;
+  }
+
+  .suck{
+    display: none;
+  }
+  /*end*/
+
+ 
+/*modern*/
+.modern-styling{
+   
+}
+.imm{
+    width: 100%;
+    margin-top:4rem;
+    object-fit: cover;
+    height: 80vh;
+}
+
+.texts {
+  width: 100%;
+  position: absolute;
+  margin-top: 7rem;
+  text-align: center;
+
+}
+
+h4 {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800;
+    width: 65%;
+    margin: auto;
+    color: white;
+    font-size:20px ;
+    line-height: 1.5rem;
+    font-style: normal;
+    color:#263238;
+  }
+
+  h5{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;  
+    text-align: center;
+    color:#263238;
+    margin-top: 0.5rem;
+    font-size: 30px;
+    margin-top: 2rem;
+    width: 65%;
+    margin: auto;
+    line-height: 3.5rem;
+  }
+
+  .install-btn{
+        width:100%;
+        margin:auto;
+        position: absolute;
+        margin-top: 25rem;
+        text-align: center;
+        font-family: "Urbanist", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 20px;  
+        font-weight: 600;
+        color: white;
+        
+        text-align: center;
+  }
+
+  .cta-btn{
+    background-color: gold;
+    width: 15rem;
+    margin-top: -4rem;
+  }
+
+  /*products*/
+
+  .products{
+    width: 90%;
+    margin: auto;
+    padding: px;
+  }
+  .view{
+    width: 15rem;
+    color: rgb(49, 146, 207);
+    border: 2px solid gold;
+    height: 3rem;
+    background-color: white;
+  }
+
+  .product-card{
+   
+  }
+
+  .product-show{
+    margin-top: 4rem;
+  }
+
+  .product-image{
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    margin-top: 4rem;
+   
+  }
+
+  .product-name{
+    text-align: center;
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .product-pricing{
+    text-align: center;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;  
+    text-align: center;
+    font-weight: 900;
+    color:black;
+   
+  }
+
+  .product-ordered{
+    background-color: rgb(99, 173, 219);
+   border-radius: 0%;
+   padding-top: 1rem;
+   max-width: 30%;
+   margin: auto;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: white;
+   border-radius: 1rem;
+  }
+
+  .pro{
+    background-color: rgb(99, 173, 219);
+    padding: 0.1rem;
+    height: 2rem;
+    border-radius: 3rem;
+  }
+
+  /*latest*/
+  .center-items{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+  }
+  .latest-header{
+    color: rgb(49, 146, 207);
+    font-size: 19px;
+    font-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 480;
+    font-style: normal;
+}
+.latest-hero{
+    font-family: "Urbanist", sans-serif;
+    font-weight:800;
+    color:#263238;
+    margin: auto;
+    font-style: normal;   
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.latest-news{
+    background-color:linear-gradient(to bottom,rgb(99, 156, 202), white);
+
+}
+
+.tipx{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+   
+}
+.tricks{
+    background-color:gold;
+    text-align: center;
+    margin: auto;
+    max-width: 40%;
+    color:#ffffff;
+    position:relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -0.5rem;
+}
+
+.tips-text{
+    font-family: "Teko", sans-serif;
+    font-size: 25px;
+    width: 70%;
+    line-height: -0.2rem;
+    margin: auto;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+  
+.association{
+   width: 70%;
+   margin: auto;
+   font-size: 12px;
+   font-family: "Urbanist", sans-serif;
+    font-weight: lighter;
+    color:#263238 ;
+    color: grey;
+
+}
+
+.span{
+    color: rgb(112, 182, 206);
+}
+
+
+/*contacts*/
+ .contacts-info{
+    margin-top: 3rem;
+   
+  
+}
+
+.text-info{
+    margin-top: 30rem;
+    background-color:   rgb(29, 117, 171);
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: -35rem;
+}
+
+.info-header{
+    color: gold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line{
+    color: goldenrod;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+.call{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1rem;
+}
+.gh{
+    color: white;
+    font-family:"Urbanist", sans-serif ;
+    width: 100%;
+    margin: auto;
+    font-size: 28px;
+    margin-top: 1rem;
+}
+
+.support{
+    margin-top: 2rem;
+}
+
+
+/*footer*/
+footer{
+    background-color:#191f22 ;
+    margin-top: 11rem;
+    height: 100vh;
+    width: 100%;
+}
+.footer-items{
+  display: ;
+}
+
+
+
+hr{
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+h6{
+    font-family: "Teko", sans-serif;
+    font-size: 30px;
+    width: 90%;
+    margin: auto;
+    color: white;
+    font-weight: lighter;
+   padding-top: 19rem;
+   position: ;
+
+}
+
+h6::after{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    width: 200px;
+    height: -0.5px;
+    display: block;
+    position: absolute;
+    content: "";
+    margin-left: 6rem;
+    margin-top: -1.3rem;
+}
+
+.location{
+    margin-top: 3rem;
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+/* play-button{
+    background-image: url('../img/pexels-albinberlin-919073.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
+
+
+
+ /*   .cont-slide{
+  text-align: center;
+ width: 100%;
+ height: 400px;
+ 
+ 
+   }
+   
+    .slider {
+        position: relative;
+        width: 90%;
+        margin: auto;
+        margin-top: 4rem;
+        overflow: hidden;
+    }
+ 
+    .cont{
+        background-color:white;
+        position: relative;
+        margin: auto;
+        margin-top: 4rem;
+        box-shadow: 0 1px 20px;
+        overflow: hidden;
+    }
+    
+    .images img{
+        width: 100%;
+        margin: auto;
+        transition: all 0.15s ease;
+    }
+    .images input {
+        display: none;
+    }
+    .dots {
+        display:flex;
+        justify-content: center;
+        margin: 5px;
+        position: sticky;
+    }
+    .dots label {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        border: solid  black 1px;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        margin: 5px;
+    }
+    .dots label:hover {background: black;}
+    #img1:checked ~ .m1 {
+        margin-left: 0;
+    }
+    #img2:checked ~ .m3 {
+        margin-left: -100%;
+    }
+    #img3:checked ~ .m4 {
+        margin-left: -200%;
+    }
+    #img4:checked ~ .m5 {
+        margin-left: -300%;
+    }
+    #img5:checked ~ .m6 {
+        margin-left: -400%;
+    }
+    #img6:checked ~ .m7 {
+        margin-left: -500%; */
+    
+   /* .services{
+    display: flex;
+    width: 100%;
+    background-color: white;
+   }
+   .services  input  {
+    display:  none;
+   }
+   
+   .dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+ 
+   }
+   .dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid black 1px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+   }
+
+   .dots label:hover{
+    background-color: black;
+    gap: 1rem;
+   }
+
+   .ref{
+    background-color: white;
+    padding: 1rem;
+    
+   } */
+  /*  #im1:checked ~ .m1,.cont{
+        margin-left:0;
+   }
+   #im1:checked ~ .m1,.cont:hover{
+        transform: translateX(0%);
+   }
+   #im2:checked ~ .m2{
+        margin-left: -100%;
+   }
+   #im2:checked ~ .m2:hover{
+       transform: translateX(-100%);
+   }
+   #im3:checked ~ .m3{
+        margin-left: -200%;
+   }
+   #im4:checked ~ .m4{
+        margin-left: -300%;
+   }
+   #im5:checked ~ .m4{
+        margin-left: -400%;
+   }
+   #im6:checked ~ .m6{
+        margin-left: -500%;
+   }
+   #im7:checked ~ .m7{
+        margin-left: -700%;
+   } */
+
+
+@media  (max-width:900px){
+    .checkbtn{
+     display: block;
+    }
+ 
+    ul{
+    position:fixed;
+     width: 60%;
+    height: 100vh;
+    max-width: 300px;
+     background:white;
+     left: -100%;
+     right:50%;
+    top: 0;
+        border: 1px solid black;
+     text-align:start;
+     font-family: 'Epilogue', sans-serif;
+     transition: all 0.9s ;
+    }
+
+    .sub-nav-links{
+       background-color: #1C1C1C;
+       width: 90%;
+       margin: auto;
+       height:3rem;
+    }
+
+    .sub-nav{
+      margin-top: 4rem;
+    }
+
+    .dropdown{
+        margin-top:4rem;
+    }
+
+   a{
+    text-decoration: none;
+   }
+
+   span{
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+    float: right;
+    margin-right: 3rem;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    margin-top: 1rem;
+   }
+
+    ul:hover{
+      transform: translateX(-100%);
+      opacity: 0.9;
+        
+    }
+    nav ul li{
+        display:block;
+        margin: 35px 0px;
+        line-height: 1px;
+        font-family: "Barlow", sans-serif;
+        font-size: 16px;
+        
+      
+    }
+    nav ul li a{
+        font-size:16px;
+        text-decoration: none;
+         
+    }
+
+    
+
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+    body:hover{
+      opacity: 0.9; 
+    }
+    
+}
